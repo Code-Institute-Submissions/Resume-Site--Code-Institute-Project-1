@@ -1,0 +1,202 @@
+@import url('variables.css');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: var(--text-xxl);
+    font-family: var(--font-family-headers-lg);
+    color: var(--primary-color-6);
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: var(--text-xl);
+    font-family: var(--font-family-headers-lg);
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: var(--text-lg);
+    font-family: var(--font-family-headers-md);
+    color: var(--secondary-color-0);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: var(--text-mdl);
+    font-family: var(--font-family-headers-md);
+    color: var(--primary-color-7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: var(--text-md);
+    font-family: var(--font-family-headers-md);
+    color: var(--secondary-color-8);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+.container-fluid {
+    max-width: var(--screen-max-width);
+}
+
+.landing-nav-container {
+    max-width: 100%;
+}
+
+/* #region ==== G E N E R I C =============================================== */
+
+.relative {
+    position: relative;
+}
+
+/* #endregion =============================================================== */
+
+/* #region ==== Landing area */
+
+.main-page-header-background {
+    background-image: url(../img/track-sky-1920-1080.jpg);
+}
+
+.header-background-full {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.landing-slogans-wrapper {
+    height: 100%;
+}
+
+.landing-nav-container {
+    max-width: 992px;
+}
+
+.landing-1-wrapper {
+    display: border-box;
+    position: sticky;
+    left: 150px;
+    margin-top: 150px;
+    height: 100px;
+    width: calc(100% + 300px);
+    padding: 15px 100px 40px 0;
+    background: linear-gradient(
+        to right,
+        rgba(41, 137, 216, 0.7) 0%,
+        rgba(175, 216, 230, 0.2) 100%
+    );
+}
+
+.landing-1 {
+    display: block;
+    width: 100%;
+    font-size: var(--text-xxl);
+    color: var(--primary-color-7);
+}
+
+.red {
+    background-color: red;
+}
+
+.h2-landing-2 {
+    display: block;
+    font-size: var(--text-lgl);
+    color: var(--secondary-color-1);
+    height: 10%;
+    padding-left: 5%;
+    width: 200%;
+}
+
+.h2-landing-2-relative {
+    position: relative;
+    background-color: lightblue;
+}
+
+.h2-landing-3 {
+    display: block;
+    font-size: var(--text-lgl);
+    color: var(--secondary-color-1);
+    height: 10%;
+}
+
+.h2-landing-4 {
+    display: block;
+    font-size: var(--text-xxl);
+    color: var(--primary-color-7);
+    height: 10%;
+}
+
+.landing-5-wrapper {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    overflow: visible;
+    width: 400%;
+    top: -100px;
+    left: 0px;
+}
+
+.landing-5 {
+    display: block;
+    font-size: var(--text-xxxxl);
+    color: var(--primary-color-4);
+    font-weight: 700;
+    height: 40%;
+    width: 100%;
+}
+
+.landing-mark_full-wrapper {
+    position: relative;
+    top: -120px;
+}
+
+.landing-mark_full-wrapper img {
+    max-width: 500px;
+}
+
+/* #endregion */
+
+/* :::: #region ::::::::::: 1# - MEDIA QUERIES  ::::::::::::::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ==== BOOTSTRAP sm - 576px and up =========================== */
+@media (min-width: 576px) {
+}
+/* #endregion ----------------------------------------------------------*/
+
+/* #region ==== BOOTSTRAP md - 768px and up =========================== */
+@media (min-width: 768px) {
+}
+/* #endregion ----------------------------------------------------------*/
+
+/* #region ==== BOOTSTRAP lg - 992px and up =========================== */
+
+@media (min-width: 992px) {
+}
+/* #endregion ----------------------------------------------------------*/
+
+/* #region ==== Bootstrap xl - 1200px and up ========================== */
+
+@media (min-width: 1200px) {
+}
+
+/* #endregion ----------------------------------------------------------*/
+
+/* #endregion ----------------------------------------------------------*/
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */

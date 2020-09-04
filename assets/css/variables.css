@@ -1,0 +1,118 @@
+/* :::: IMPORTED FONTS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* FROM: Google Fonts                                                                           === */
+/* (all available sizes and styles are included for all fonts)                                  === */
+/* Montserrat - Oswald - Roboto - Merriweather - Poppins                                        === */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* :::: COLORS - FONT-SIZE - FONT-FAMILYS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+:root {
+    /*=== Colors ==================================================================================*/
+
+    --primary-color-1: #f0b776;
+    --primary-color-2: #800000;
+    --primary-color-3: #e78a21;
+    --primary-color-4: #ff6e64;
+    --primary-color-5: #65060f;
+    --primary-color-6: #4b3f61;
+    --primary-color-7: #00006c;
+    --primary-color-8: #d70d21;
+
+    --secondary-color-0: #000000;
+    --secondary-color-1: #5d5d5d; /* Standard body text */
+    --secondary-color-2: #8a8a8a;
+    --secondary-color-3: #b3b3b3;
+    --secondary-color-4: #c8c8c8;
+    --secondary-color-5: #f0f0f0;
+    --secondary-color-6: #ffffff;
+
+    --transparent-color: transparent;
+
+    /*=== Text sizes ===============================================================================*/
+    --text-xxxxl: 5em;
+    --text-xxxl: 3em;
+    --text-xxl: 2em;
+    --text-xl: 1.6em;
+    --text-lgl: 1.3em;
+    --text-lg: 1.1em;
+    --text-mdl: 1em;
+    --text-md: 100%;
+    --text-mds: 90%;
+    --text-sm: 80%;
+    --text-xs: 70%;
+
+    /*=== Fonts =====================================================================================*/
+    --font-family-body-text: 'Roboto', sans-serif;
+    --font-family-headers-lg: 'Oswald', sans-serif;
+    --font-family-headers-md: 'Montserrat', sans-serif;
+    --font-family-buttons: 'Montserrat', sans-serif;
+    --font-family-quotations: 'Poppins', sans-serif;
+    --font-family-logotype: 'Merriweather', sans-serif;
+
+    /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    /* :::: G E N E R A L  E L E M E N T S  V A R I A B L E S ::::::::::::::::::::::::::::::::::::::: */
+    /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    /* Icons */
+    --icon-standard-color: var(--secondary-color-4);
+    --icon-highlight-color: var(--primary-color-1);
+
+    /* Borders */
+    --border-thin-light: 1px solid var(--secondary-color-5);
+    --border-thin-medium: 1px solid var(--secondary-color-4);
+
+    /* === LOGOTYPE === */
+    --logo-text-color: var(--secondary-color-1);
+    --logo-icon-color: var(--primary-color-2);
+    --logo-icon-size: 1.2em;
+    --logo-small-font-size: var(--text-xs);
+    --logo-medium-font-size: var(--text-md);
+    --logo-large-font-size: var(--text-lgl);
+    --logo-font-stretch: ultra-expanded;
+
+    /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    /* :::: #1 - SPECIFIC SECTIONS AND PAGES :::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    /* === HEADER =================================================================================== */
+    --top-navbar-bg-color: var(
+        --secondary-color-6
+    ); /* old navbar used secondary 7 */
+
+    /* === FOOTER =================================================================================== */
+    --footer-bg-color: var(--secondary-color-6);
+    --footer-border-color: var(--secondary-color-5);
+
+    /* === MAIN PAGE ================================================================================ */
+
+    /* Main Page Info */
+    --main-page-quotes-bg-color: var(--secondary-color-5);
+    --main-page-usp-bg-color: var(--secondary-color-6);
+    --main-page-trial-bg-color: var(--secondary-color-5);
+    --main-page-leasing-bg-color: var(--secondary-color-5);
+    --main-page-markersclub-bg-color: var(--secondary-color-5);
+
+    /* === ORDER PAGES ============================================================================== */
+
+    /* Header */
+    --order-header-text-box-bg-color: var(--secondary-color-6);
+    --order-header-h1-box-bg-color: var(--primary-color-2);
+    --order-progress-bg-color: var(--secondary-color-3);
+
+    /* Form */
+    --order-form-group-bg-color: var(--secondary-color-6);
+    --order-form-group-header-txt-color: var(--secondary-color-1);
+    --order-form-group-header-bg-color: var(--primary-color-1);
+    --order-form-module-bg-color: var(--secondary-color-6);
+    --order-form-module-header-bg-color: var(--secondary-color-5);
+    --order-form-info-button-color: var(--primary-color-5);
+    --order-form-icon-color: var(--secondary-color-2);
+
+    /* === SCREEN WIDTH ============================================================================== */
+    --screen-max-width: 2560px;
+    --screen-curr-width: 100vw;
+    --screen-width-50: calc(var(--screen-curr-width) / 2);
+}
