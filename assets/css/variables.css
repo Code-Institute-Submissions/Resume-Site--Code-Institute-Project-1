@@ -17,11 +17,11 @@
     --primary-color-3: #e78a21;
     --primary-color-4: #ff6e64;
     --primary-color-5: #65060f;
-    --primary-color-6: #4b3f61;
+    --primary-color-6: #2842bb;
     --primary-color-7: #00006c;
-    --primary-color-8: #d70d21;
+    --primary-color-8: #92bbe9;
 
-    --secondary-color-0: #000000;
+    --secondary-color-0: #595959;
     --secondary-color-1: #5d5d5d; /* Standard body text */
     --secondary-color-2: #8a8a8a;
     --secondary-color-3: #b3b3b3;
@@ -32,7 +32,7 @@
     --transparent-color: transparent;
 
     /*=== Text sizes ===============================================================================*/
-    --text-xxxxl: 5em;
+    --text-xxxxl: 4em;
     --text-xxxl: 3em;
     --text-xxl: 2em;
     --text-xl: 1.6em;
@@ -46,7 +46,7 @@
 
     /*=== Fonts =====================================================================================*/
     --font-family-body-text: 'Roboto', sans-serif;
-    --font-family-headers-lg: 'Oswald', sans-serif;
+    --font-family-headers-lg: 'Montserrat', sans-serif;
     --font-family-headers-md: 'Montserrat', sans-serif;
     --font-family-buttons: 'Montserrat', sans-serif;
     --font-family-quotations: 'Poppins', sans-serif;

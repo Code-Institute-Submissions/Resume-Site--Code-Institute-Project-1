@@ -29,48 +29,39 @@
 
 <body class="">
     <!-- #region - landing area -->
-    <div class="container-fluid mx-auto text-center p-0 main-page-header-background header-background-full">
-        <!-- #region ROW 1 -->
-        <div class=" landing-nav-container-wide mx-auto">
-            <div class="row no-gutters w-100">
-                <!-- #region - col left -->
-                <div class="col-12 col-md-6 w-100">
-                    <div class="d-flex flex-row justify-content-right landing-1-wrapper">
-                        <h2 class="landing-1 flex-grow-1 text-lg-right text-center">
-                            Are your team going<br>for the next sprint?
-                        </h2>
-                    </div>
-                </div>
-                <!-- #endregion - col left -->
-                <!-- #region - col right -->
-                <div class="d-none d-md-block col-md-6 w-100"></div>
-                <!-- #endregion - col left -->
-            </div>
-        </div>
+    <div class="container-fluid mx-auto text-center p-0 main-page-header-background header-background-full landing-nav-container">
         <!-- #endregion - row 1 -->
-        <!-- #region ROW 2 -->
-        <div class=" landing-nav-container-narrow mx-auto">
-            <div class="row no-gutters">
-                <!-- #region - landing text row 2 -->
+        <!-- #region ROW 1 -->
+        <div class=" landing-nav-container-narrow marg-top mx-auto">
+            <div class="row ">
+                <!-- #region - landing text row 1 -->
                 <div class="col-12 col-md-6">
 
-                    <div class="d-glex flex-row justify-content-between w-100">
-                        <div class="d-flex flex-column align-items-stretch relative">
-                            <div class="d-flex flex-column align-items-baseline h-100 landing-slogans-wrapper">
-                                <div class="row justify-content-center justify-content-lg-right w-100 mt-3 mt-md-5">
-                                    <h2 class="h2-landing-2 text-lg-right text-center">
-                                        Hire a "Landing Page Hero"!
+                    <div class="d-glex flex-row justify-content-between">
+                        <div class="d-flex flex-column align-items-stretch">
+                            <div class="d-flex flex-column align-items-baseline">
+                                <div class="mt-0 mt-md-5 ml-2 ml-md-3 landing-1-wrapper landing-text">
+                                    <h2 class="landing-1">
+                                        Are your team going<br class="d-none d-md-inline"> for the next sprint?
                                     </h2>
                                 </div>
-                                <div class="row justify-content-center justify-content-lg-right w-100 mt-3 mt-md-5">
-                                    <h2 class="h2-landing-3 text-lg-right text-center w-100">
-                                        Or to be frank
-                                    </h2>
+                                <div class="d-none d-md-inline mt-3 ml-2 ml-3 landing-2-wrapper landing-text">
+                                    <h3 class="landing-2">
+                                        Maybe you just need a new<br>
+                                        landing page hero? - Feel free to use this one!
+                                    </h3>
                                 </div>
-                                <div class="row justify-content-center justify-content-lg-right w-100 mt-3 mt-md-5">
-                                    <h2 class="h2-landing-4 text-lg-right text-center w-100">
-                                        Just...
-                                    </h2>
+                                <div class="d-none d-md-inline mt-3 ml-3 landing-2-wrapper landing-text">
+                                    <h3 class="landing-2">
+                                        Or<br>
+                                        You could just...
+                                    </h3>
+                                </div>
+
+                                <div class="mt-3 mt-md-5 ml-2 ml-md-3 landing-3-wrapper landing-text">
+                                    <h1 class="flex-grow-1 landing-3">
+                                        HIRE ME!
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -79,19 +70,37 @@
                 <!-- #endregion - landing text row 2 -->
                 <!-- #region - Hero image -->
                 <div class="col-12 col-md-6">
-                    <div class="d-flex flex-column ">
-                        <div class="landing-mark_full-wrapper">
-                            <img class="img-fluid"
-                                src="assets/img/running-mark-500.png"
-                                alt="" />
-                        </div>
+                    <div class="d-none d-md-flex flex-end landing-hero-full-wrapper">
+                        <img class="img-fluid"
+                            src="assets/img/running-mark-500.png"
+                            alt="A very classic landing page hero image" />
+                    </div>
+                    <div class="d-flex d-md-none flex-end landing-hero-full-wrapper">
+                        <img class="img-fluid"
+                            src="assets/img/running-mark-half-500.png"
+                            alt="A very classic landing page hero image" />
                     </div>
                 </div>
                 <!-- #endregion - Hero image -->
             </div>
+            <div class="row no-gutters relative mx-2 mx-md-3">
+                <a class="top-10-button btn btn-light" href="#" role="button">
+                    <span class="top-10 top-10-one"><span class="d-none d-md-inline">The Top-10</span><span class="d-inline d-md-none">
+                            Top-10</span></span>
+                    <span class="top-10 top-10-two"><span class="d-none d-md-inline">Reasons for why you should hire me</span><span
+                            class="d-inline d-md-none">
+                            Reasons why <i class="fas fa-angle-right"></i></span></span>
+                    <span class="top-10 top-10-three  d-none d-md-inline">Go
+                        there now <i class="fas fa-angle-right"></i></span>
+                </a>
+                <a class="btn btn-light top-10-button overlay" href="#" role="button">
+
+                </a>
+            </div>
         </div>
         <!-- #endregion -->
-        <!-- #region ROW 3 -->
+
+        <!-- #region ROW 2 -->
         <div class=" landing-nav-container-wide mx-auto">
             <div class="row no-gutters w-100">
                 <!-- #region NAV-Wheel -->
@@ -101,13 +110,9 @@
                     </h2>
                 </div>
                 <!-- #endregion-->
-                <!-- #region Hire-me-text -->
+                <!-- #regionCol right -->
                 <div class="col-12 col-md-6 w-100">
-                    <div class="d-flex flex-row justify-content-left landing-5-wrapper">
-                        <h1 class="landing-5 flex-grow-1 text-left w-100">
-                            ...HIRE ME!
-                        </h1>
-                    </div>
+
                 </div>
                 <!-- #endregion -->
             </div>
