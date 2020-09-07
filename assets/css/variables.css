@@ -12,14 +12,15 @@
 :root {
     /*=== Colors ==================================================================================*/
 
-    --primary-color-1: #f0b776;
+    --primary-color-1: #ff8040;
     --primary-color-2: #800000;
     --primary-color-3: #e78a21;
-    --primary-color-4: #ff6e64;
-    --primary-color-5: #65060f;
+    --primary-color-4: #65060f;
+    --primary-color-5: #1852a0;
     --primary-color-6: #2842bb;
     --primary-color-7: #00006c;
-    --primary-color-8: #92bbe9;
+    --primary-color-8: #1a377b;
+    --primary-color-9: #92bbe9;
 
     --secondary-color-0: #595959;
     --secondary-color-1: #5d5d5d; /* Standard body text */
@@ -49,8 +50,6 @@
     --font-family-headers-lg: 'Montserrat', sans-serif;
     --font-family-headers-md: 'Montserrat', sans-serif;
     --font-family-buttons: 'Montserrat', sans-serif;
-    --font-family-quotations: 'Poppins', sans-serif;
-    --font-family-logotype: 'Merriweather', sans-serif;
 
     /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
     /* :::: G E N E R A L  E L E M E N T S  V A R I A B L E S ::::::::::::::::::::::::::::::::::::::: */
