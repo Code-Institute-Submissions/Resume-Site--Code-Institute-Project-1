@@ -327,6 +327,7 @@ a:active {
 
 .top10-button-wrapper {
     position: relative;
+    z-index: 10;
     left: -30px;
     height: 100px;
     width: 100%;
@@ -344,7 +345,7 @@ a:active {
 
 .top10-button-text {
     position: relative;
-    z-index: var(--layer-1);
+    z-index: 1;
     display: block;
     margin: 15px 0 !important;
     height: 70px !important;
@@ -354,10 +355,26 @@ a:active {
     border-bottom-right-radius: 140px;
     border-top-right-radius: 140px;
     line-height: 20px;
+    background: linear-gradient(
+        to right,
+        rgba(246, 246, 246, 0.8) 0%,
+        rgba(246, 246, 246, 0.1) 100%
+    );
+}
+
+.top10-button-text-inner {
+    position: relative;
+    top: -5px;
 }
 
 .top10-button-text div h3 {
-    font-size: var(--text-xxl);
+    font-size: 1.3em;
+    letter-spacing: 10px;
+}
+
+.top10-button-text div h3 span {
+    color: var(--primary-color-4);
+    font-size: 1.5em;
 }
 
 .top10-button-text div h4 {
@@ -368,26 +385,64 @@ a:active {
 
 .top10-button-text:hover {
     position: relative;
-    z-index: var(--layer-1);
-    background-color: var(--primary-color-7);
-    color: var(--secondary-color-5);
+    z-index: 1;
 }
 
 .top10-button-img {
     position: relative;
-    z-index: var(--layer-5);
+    z-index: 100;
     right: -20px;
     max-width: 111px;
 }
 
 .top10-button-icon {
     position: absolute;
+    z-index: 100;
     bottom: 30px;
     right: 50px;
     font-size: 40px;
 }
 
 /* #endregion */
+
+/* #endregion END - Landing page */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ::::::::::: 1# - TOP-10  :::::::::::::::::::::;;;;;;:::::::: */
+
+.top-10-main-container {
+    max-width: 992px;
+    min-height: 100vw;
+    background-color: lightgrey;
+}
+
+.top-row-wrapper {
+    min-height: 100px;
+}
+
+.top-10-number-backgr {
+    display: relative;
+    width: 150px;
+    max-height: 150px;
+    background-color: var(--primary-color-1);
+}
+
+.top-10-number {
+    position: relative;
+    left: 1px;
+    top: 2px;
+    width: 110%;
+    text-align: center;
+}
+
+.top-10-number h2 {
+    font-size: var(--txt-top10-number);
+    color: var(--secondary-color-1);
+}
+
+.top-10-text {
+    font-size: var(--text-xl);
+}
 
 /* #endregion END - Landing page */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -515,6 +570,7 @@ a:active {
     }
 
     .top10-button-icon {
+        position: relative;
         right: 15px;
     }
 

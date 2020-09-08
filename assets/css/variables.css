@@ -45,6 +45,9 @@
     --text-sm: 80%;
     --text-xs: 70%;
 
+    /* Special text */
+    --txt-top10-number: 6em;
+
     /*=== Fonts =====================================================================================*/
     --font-family-body-text: 'Roboto', sans-serif;
     --font-family-headers-lg: 'Montserrat', sans-serif;
