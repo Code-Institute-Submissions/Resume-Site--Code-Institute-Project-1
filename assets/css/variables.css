@@ -30,6 +30,10 @@
     --secondary-color-5: #f0f0f0;
     --secondary-color-6: #ffffff;
 
+    --light-color-1: #f0f0f0;
+
+    --dark-color-1: #343434;
+
     --transparent-color: transparent;
 
     /*=== Text sizes ===============================================================================*/
@@ -46,7 +50,8 @@
     --text-xs: 70%;
 
     /* Special text */
-    --txt-top10-number: 6em;
+    --txt-top10-h1: 3.5em;
+    --txt-top10-number: 7em;
 
     /*=== Fonts =====================================================================================*/
     --font-family-body-text: 'Roboto', sans-serif;
