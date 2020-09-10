@@ -5,6 +5,9 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
@@ -203,7 +206,7 @@ a:active {
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     width: 100vw !important;
-    height: 95vh !important;
+    height: 100vh !important;
 }
 
 .marg-top {
@@ -454,16 +457,15 @@ a:active {
     font-size: 1rem;
 }
 
-.top-10-sub-container {
-    height: 100%;
-    overflow-x: scroll;
+.top-10-header-container {
+    width: 100%;
+    background-color: var(--dark-color-1);
 }
 
 .top-10-header-row {
     z-index: 30;
-    height: 250px;
+    min-height: 250px;
     margin-bottom: 50px;
-    background-color: var(--dark-color-1);
 }
 
 .top-10-head-h1 {
@@ -479,10 +481,16 @@ a:active {
 /* #endregion */
 
 /* #region =====  List ==== */
-.top-row-wrapper {
+.top-10-content-container {
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.top-10-box-wrapper {
     position: relative;
     z-index: 1;
-    height: 220px;
+    min-height: 220px;
     margin-bottom: 50px;
 }
 
