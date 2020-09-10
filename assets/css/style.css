@@ -506,6 +506,7 @@ a:active {
     height: 100vh;
     overflow: hidden;
     font-size: 1rem;
+    background-color: lightblue;
 }
 
 .top-10-header-container {
