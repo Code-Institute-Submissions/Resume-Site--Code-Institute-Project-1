@@ -177,21 +177,6 @@ a:active {
 /* #endregion ========================================================= */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-/* #region ::::::::::: 1# - FLIP - Open/close  :::::::::::::::::::::::: */
-
-.flip-hide {
-    position: absolute;
-    display: none;
-}
-
-.flip-show {
-    position: static;
-    display: block;
-}
-
-/* #endregion ========================================================= */
-/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-
 /* #region ::::::::::: 1# - LANDING PAGE  ::::::::::::::::::::::::::::: */
 
 /* #region - Containers / Structure */
@@ -498,46 +483,51 @@ a:active {
 /* #endregion END - Landing page */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-/* #region ::::::::::: 1# - TOP-10  ::::::::::::::::::::::::::::::::::: */
+/* #region ::::::::::: 1# - SUB PAGE base  :::::::::::::::::::::::::::: */
 
 /* #region =====  Header ==== */
-.top-10-main-container {
+.sub-page-main-container {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     font-size: 1rem;
-    background-color: lightblue;
+    background-color: var(--light-color-1);
 }
 
-.top-10-header-container {
+.sub-page-header-container {
     width: 100%;
     background-color: var(--dark-color-1);
 }
 
-.top-10-header-row {
+.sub-page-header-row {
     z-index: 30;
     min-height: 250px;
     margin-bottom: 50px;
 }
 
-.top-10-head-h1 {
+.sub-page-head-h1 {
     font-size: var(--txt-top10-h1);
     font-weight: 400;
     color: var(--primary-color-1);
 }
 
-.top-10-head-h3 {
+.sub-page-head-h3 {
     color: var(--secondary-color-3);
 }
-
 /* #endregion */
 
-/* #region =====  List ==== */
-.top-10-content-container {
+/* #region =====  Content ==== */
+.sub-page-content-container {
     height: 100%;
     width: 100%;
     overflow-x: scroll;
 }
+/* #endregion */
+
+/* #endregion ========================================================= */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ::::::::::: 1# - TOP-10  ::::::::::::::::::::::::::::::::::: */
 
 .top-10-box-wrapper {
     position: relative;
@@ -569,7 +559,6 @@ a:active {
     font-size: var(--text-xl);
     text-align: justify;
 }
-/* #endregion */
 
 /* #endregion */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
