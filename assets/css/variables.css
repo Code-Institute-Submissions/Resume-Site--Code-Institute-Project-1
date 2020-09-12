@@ -36,6 +36,12 @@
 
     --transparent-color: transparent;
 
+    --skill-1-color: #d55e66;
+    --skill-2-color: #fdbb80;
+    --skill-3-color: #66b5ad;
+    --skill-4-color: #7aa4d6;
+    --skill-5-color: #356aac;
+
     /*=== Text sizes ===============================================================================*/
     --text-xxxxl: 4em;
     --text-xxxl: 3em;

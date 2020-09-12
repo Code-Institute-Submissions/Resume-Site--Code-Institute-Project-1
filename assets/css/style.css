@@ -522,7 +522,7 @@ a:active {
 
 /* #region =====  Content ==== */
 .sub-page-content-container {
-    height: 90%;
+    height: 70%;
     width: 100%;
     overflow-x: scroll;
 }
@@ -579,6 +579,59 @@ a:active {
 
 .github-img {
     max-width: 50px;
+}
+
+/* #endregion */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ::::::::::: 1# - SKILLS  :::::::::::::::::::::::::::::::: */
+
+.skill-group {
+    border-bottom: 1px solid var(--secondary-color-5);
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.scale-wrapper {
+    width: 100px;
+}
+
+.scale-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.scale-1 {
+    background-color: var(--skill-1-color);
+}
+
+.scale-2 {
+    background-color: var(--skill-2-color);
+}
+
+.scale-3 {
+    background-color: var(--skill-3-color);
+}
+
+.scale-4 {
+    background-color: var(--skill-4-color);
+}
+
+.scale-5 {
+    background-color: var(--skill-5-color);
+}
+
+.skill-name {
+    width: 250px;
+}
+
+.skill-img-div {
+    width: 25%;
+}
+
+.skill-img-div img {
+    max-width: 25px;
 }
 
 /* #endregion */
