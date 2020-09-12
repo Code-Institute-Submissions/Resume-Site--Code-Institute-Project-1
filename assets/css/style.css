@@ -159,6 +159,10 @@ a:active {
     z-index: var(--layer-5);
 }
 
+.filler {
+    height: 150px;
+}
+
 /* #endregion */
 
 /* #region - Icons */
@@ -518,9 +522,14 @@ a:active {
 
 /* #region =====  Content ==== */
 .sub-page-content-container {
-    height: 100%;
+    height: 90%;
     width: 100%;
     overflow-x: scroll;
+}
+
+.sub-page-content-container h3 {
+    font-size: var(--text-xl);
+    color: var(--primary-color-2);
 }
 /* #endregion */
 
@@ -558,6 +567,18 @@ a:active {
 .top-10-text {
     font-size: var(--text-xl);
     text-align: justify;
+}
+
+/* #endregion */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ::::::::::: 1# - PORTFOLIO  :::::::::::::::::::::::::::::::: */
+.portfolio-logo {
+    max-width: 100px;
+}
+
+.github-img {
+    max-width: 50px;
 }
 
 /* #endregion */
