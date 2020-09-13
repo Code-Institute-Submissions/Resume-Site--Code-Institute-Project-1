@@ -584,7 +584,7 @@ a:active {
 /* #endregion */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-/* #region ::::::::::: 1# - SKILLS  :::::::::::::::::::::::::::::::: */
+/* #region ::::::::::: 1# - SKILLS  ::::::::::::::::::::::::::::::::::: */
 
 .skill-group {
     border-bottom: 1px solid var(--secondary-color-5);
@@ -632,6 +632,15 @@ a:active {
 
 .skill-img-div img {
     max-width: 25px;
+}
+
+/* #endregion */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* #region ::::::::::: 1# - EDUCATIONS  ::::::::::::::::::::::::::::::: */
+
+.education-img {
+    max-width: 400px;
 }
 
 /* #endregion */
