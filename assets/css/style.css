@@ -783,6 +783,10 @@ a:active {
         bottom: 10px;
         font-size: var(--text-md);
     }
+
+    .sub-page-header-row {
+        font-size: 0.7rem;
+    }
 }
 /* #endregion ----------------------------------------------------------*/
 
@@ -853,7 +857,7 @@ a:active {
     position: absolute;
     display: inline-block;
     right: 50px;
-    top: 0px;
+    top: -20px;
     padding-left: 15px;
     padding-top: 15px;
     margin-top: 26px;
@@ -907,7 +911,7 @@ a:active {
 .nav {
     position: absolute;
     right: -10px;
-    top: 20px;
+    top: 5px;
     z-index: 98;
 }
 
