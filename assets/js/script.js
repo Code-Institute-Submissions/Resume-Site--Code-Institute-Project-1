@@ -7,8 +7,6 @@ $(document).ready(function () {
     $('.flip-button').click(function () {
         var card = '#' + $(this).data('card');
         var direction = $(this).data('direction');
-        console.log(card);
-        console.log(direction);
         $(card).flip(direction);
     });
 
