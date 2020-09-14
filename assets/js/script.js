@@ -69,4 +69,12 @@ $(document).ready(function () {
     });
     /* #endregion */
     /* ================================================================================================== */
+
+    /* #region ==== Look Forward - Page transitions ===================================================== */
+    /* ============ @ https://www.jqueryscript.net/animation/smooth-page-transitions-lookforward.html === */
+    $(function () {
+        $('.js-lookforward').lookforward();
+    });
+    /* #endregion */
+    /* ================================================================================================== */
 });

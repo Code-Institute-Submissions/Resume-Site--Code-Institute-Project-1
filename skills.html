@@ -26,6 +26,9 @@
 	<!-- CSS3 Animate It @ https://www.jqueryscript.net/animation/Animate-Elements-In-When-They-Come-Into-View-jQuery-CSS3-Animate-It-Plugin.html ==== -->
 	<link rel="stylesheet" href="assets/css/animations.css" />
 
+	<!-- Look Forward @ https://www.jqueryscript.net/animation/smooth-page-transitions-lookforward.html -->
+	<link rel="stylesheet" href="assets/css/lookforward.css" />
+
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<title>Hello Mark! | SKILLS</title>
@@ -35,6 +38,7 @@
 
 <body>
 	<div class="container-fluid mx-auto p-0 relative">
+
 		<!-- #region - ====  NAV  ==============================================  -->
 		<div class="nav-but-wrap">
 			<div class="menu-icon hover-target">
@@ -47,28 +51,52 @@
 			<div class="nav__content">
 				<ul class="nav__list">
 					<li class="nav__list-item">
-						<a href="index.html">Home</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="index.html">Home</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="top10.html">Top-10</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="top10.html">Top-10</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="about.html" class="hover-target">About me</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="about.html">About me</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="portfolio.html" class="hover-target">Portfolio</a>
+						<a class="hover-target js-lookforward"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="portfolio.html">Portfolio</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="skills.html" class="hover-target">Skills</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="skills.html">Skills</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="jobs.html" class="hover-target">Jobs</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="jobs.html">Jobs</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="educations.html" class="hover-target">educations</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="educations.html">educations</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="contact.html" class="hover-target">Contact</a>
+						<a class="js-lookforward hover-target"
+							data-transition-enter="slideleft"
+							data-transition-leave="slideright"
+							href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -475,6 +503,9 @@
 	</div>
 
 	<!-- #region - ====  SCRIPTS  ======================================================  -->
+	<!-- Look Forward @ https://www.jqueryscript.net/animation/smooth-page-transitions-lookforward.html -->
+	<script src="assets/js/lookforward.min.js"></script>
+
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
 	<script
 		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -484,6 +515,9 @@
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
+
+	<!-- Look Forward @ https://www.jqueryscript.net/animation/smooth-page-transitions-lookforward.html -->
+	<script src="assets/js/jquery-lookforward.min.js"></script>
 
 	<!-- jQuery Flip @ http://nnattawat.github.io/flip/ -->
 	<script src="assets/js/jquery.flip.min.js"></script>
