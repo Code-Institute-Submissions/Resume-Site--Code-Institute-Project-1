@@ -804,10 +804,6 @@ a:active {
         width: 100%;
     }
 
-    .landing-3-backgr {
-        height: 150px !important;
-    }
-
     .top10-button-text-inner {
         position: relative;
         right: 50px;
@@ -826,10 +822,14 @@ a:active {
 }
 /* #endregion ----------------------------------------------------------*/
 
-/* #region ==== BOOTSTRAP sm - 430px and down ========================= */
-@media (max-width: 576px) {
+/* #region ==== BOOTSTRAP sm - 480px and down ========================= */
+@media (max-width: 480px) {
     .landing-1-backgr {
         height: 100px !important;
+    }
+
+    .landing-3-backgr {
+        height: 150px !important;
     }
 }
 /* #endregion ----------------------------------------------------------*/
