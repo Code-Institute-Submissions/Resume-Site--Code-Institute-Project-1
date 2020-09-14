@@ -699,7 +699,7 @@ a:active {
 
     .landing-3-backgr {
         right: 0px;
-        top: 0px;
+        top: 10px;
         width: 100%;
     }
 
@@ -722,7 +722,7 @@ a:active {
 /* #region ==== BOOTSTRAP md - 768px and down ========================= */
 @media (max-width: 768px) {
     .marg-top {
-        margin-top: 10px;
+        margin-top: 100px;
     }
 
     .landing-nav-container {
@@ -742,7 +742,7 @@ a:active {
         width: 100%;
         right: 0px;
         top: 0px;
-        height: 50px !important;
+        height: 75px !important;
     }
 
     .landing-all-text-wrapper {
@@ -802,6 +802,10 @@ a:active {
         right: 0px;
         top: 0px;
         width: 100%;
+    }
+
+    .landing-3-backgr {
+        height: 150px !important;
     }
 
     .top10-button-text-inner {
