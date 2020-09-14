@@ -104,3 +104,71 @@ The test is done manually in the following browsers:
 -   Safari (on iPad pro 10.5 iOS 13.6.1 with keyboard)
 
 The testing is done from the perspective of each user story (presented above). Are they fullfilled and display propperly on different screen sizes? Besides that all links are tested manually on each page to ensure that they all work as intended.
+
+<img src="readme/test.png">
+
+## UX
+
+### GOAL - OBJECTIVE
+
+The goal with this project is to showcase my skill as a front-end developer and to offer potential employers some relevant information about my professional and educational background (See user stories above)
+
+### SCOPE
+
+Must features (Information):
+
+-   Portfolio page
+-   Skills page
+-   Job history page
+-   Educations page
+-   Contact page
+
+### STRUCTURE
+
+All pages share the same page menu, and a user can get to any page from anywhere on the site.
+
+### SKELETON
+
+Wireframe for content pages:
+<img src="readme/wireframe.png">
+
+## CREDITS
+
+### MEDIA (images)
+
+-   sky background @ https://wallpaperaccess.com/blue-cloud
+-   track background @ https://www.jakpost.travel/wimages/large/120-1206366_running-track-track-and-field-background.jpg
+-   Running body @ https://www.pngfuel.com/free-png/ncikf
+-   front-end @ https://www.creativeencode.com/blog_post/top-5-front-end-development-tools/
+-   back-end @ https://www.iconstudiosny.com/wp-content/uploads/2019/03/web-development.jpg
+-   flowshart @ https://www.123rf.com/stock-photo/flowchart.html?oriSearch=business+flowchart&sti=m8ekx76by5torg1pa1|&mediapopup=82434965 (licenced)
+-   html5 and CSS3 @ https://www.vhv.rs/viewpic/wmhxJR_thumb-image-icon-html-css-png-transparent-png/
+-   Bootstrap @ https://v4-alpha.getbootstrap.com/about/brand/
+-   Javascript @ https://www.pngguru.com/free-transparent-background-png-clipart-kwmuh
+-   jquery @ https://generic-ui.com/assets/images/platform-logos/jquery.logo.jpg
+-   Gimp @ https://www.cleanpng.com/png-gimp-graphic-design-image-editing-logo-gimp-2-9-6-6765367/download-png.html
+-   Python @ https://i7.pngguru.com/preview/266/560/1015/python-computer-icons-programmer-javascript-programming-language-python-logo.jpg
+-   flask @ https://icon2.cleanpng.com/20180411/crq/kisspng-flask-python-bottle-web-framework-web-application-flask-5ace6e9390a584.8245874315234781635925.jpg
+-   django @ https://brandslogos.com/wp-content/uploads/images/large/django-logo.png
+-   c# @ https://favpng.com/png_view/c-c-computer-programming-javascript-png/xWJ85DUc
+-   .net @ https://logos-download.com/18478-net-logo-download.html
+-   mongoDB @ https://www.cleanpng.com/png-mongodb-database-nosql-postgresql-mongo-4631237/
+-   sql @ https://www.macworld.co.uk/cmsdata/features/3638150/setup_learn_sql_mac_thumb1200_4-3.jpg
+-   github @ https://github.com/logos
+-   heroku @ https://www.pngfind.com/mpng/iobxiTT_svg-vector-heroku-logo-hd-png-download/
+-   docker @ https://www.cleanpng.com/png-docker-logo-kubernetes-software-deployment-enginee-4451322/
+-   VS code @ https://azure.microsoft.com/en-us/products/visual-studio-code/
+-   project management @ https://www.123rf.com/photo_85907776_stock-vector-project-management-icon-vector-check-list.html
+-   Flowchart2 @ https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial
+-   Office logos @ https://www.cleanpng.com/png-microsoft-office-2013-microsoft-office-365-microso-5763473/
+-   Man and boulder @ https://www.123rf.com/stock-photo/boulder.html?sti=ne6840zy4o28vkpdxi|&mediapopup=77676348 (licenced)
+-   education @ https://smtcenter.net/wp-content/uploads/2019/09/systemic-evaluation.jpg
+-   Code Institute @ https://favpng.com/png_view/technology-code-institute-technology-logo-learning-information-png/SyFUrsc1
+-   Stockholm university @ https://www.cleanpng.com/png-stockholm-university-stockholm-business-school-uni-5144960/
+-   linked in @ https://image.similarpng.com/very-thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png
+
+### SCRIPTS / CODE
+
+-   Morphing menu @ https://www.jqueryscript.net/menu/morphing-dropdown-menu.html
+-   Look Forward @ https://www.jqueryscript.net/animation/smooth-page-transitions-lookforward.html
+-   jQuery Flip @ http://nnattawat.github.io/flip/
