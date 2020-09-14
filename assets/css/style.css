@@ -750,20 +750,20 @@ a:active {
     }
 
     .top10-button-wrapper {
-        width: 130%;
-        top: -75px;
-        left: -20px;
-    }
-
-    .top10-button-text {
+        width: 100%;
+        top: -38px;
         left: 0px;
     }
 
     .top10-button-text-inner {
         position: relative;
-        right: 50px;
-        top: 5px;
+        right: 25px;
         width: 50%;
+    }
+
+    .top10-button-text {
+        padding-top: 15px;
+        font-size: 0.9rem;
     }
 
     .top10-button-img {
@@ -804,6 +804,11 @@ a:active {
         width: 100%;
     }
 
+    .top10-button-text {
+        padding-top: 5px;
+        font-size: 0.9rem;
+    }
+
     .top10-button-text-inner {
         position: relative;
         right: 50px;
@@ -830,6 +835,11 @@ a:active {
 
     .landing-3-backgr {
         height: 150px !important;
+    }
+
+    .top10-button-text {
+        padding-top: 10px;
+        font-size: 0.7rem;
     }
 }
 /* #endregion ----------------------------------------------------------*/
@@ -860,7 +870,7 @@ a:active {
 }
 
 .menu-icon__line {
-    height: 2px;
+    height: 4px;
     width: 30px;
     display: block;
     background-color: #fff;
